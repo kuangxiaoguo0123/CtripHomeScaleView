@@ -1,12 +1,10 @@
 # ctripHomeScaleView
 Android仿携程首页按压缩放效果view
 
-## Screenshots
+# Screenshots
 ![](https://github.com/kuangxiaoguo0123/ctripHomeScaleView/raw/master/screenshots/ctrip.gif)
 
-## 主要代码
-
-- 实现动画代码
+# 实现动画
 
 ````
 /**
@@ -27,7 +25,7 @@ Android仿携程首页按压缩放效果view
         backAnimatorSet.play(backXAnimation).with(backYAnimation);
     }
 ````
-- ImageView的onTouch事件处理代码
+# ImageView的onTouch事件处理
 
 ````
 @Override
@@ -113,5 +111,8 @@ Android仿携程首页按压缩放效果view
         return true;
     }
 ````
-最后，其使用和正常的imageView是一样的，我们只是重写了它的onTouch事件，所以对imageView的其它属性的设置不会有影响。
+# Sample source code
+[https://github.com/kuangxiaoguo0123/ctripHomeScaleView](https://github.com/kuangxiaoguo0123/ctripHomeScaleView)
 
+# More information
+[http://blog.csdn.net/kuangxiaoguo0123/article/details/52373659](http://blog.csdn.net/kuangxiaoguo0123/article/details/52373659)
