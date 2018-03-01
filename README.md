@@ -1,4 +1,4 @@
-# ctripHomeScaleView
+# CtripHomeScaleView
 Android仿携程首页按压缩放效果view
 
 # Screenshots
